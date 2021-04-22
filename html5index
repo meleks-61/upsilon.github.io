@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body{
+			background-color: #AE0A0A;
+		}
+		p{
+			color:#1F1CBC;
+		}
+</style>
+</head>
+<body>
+	<p> Write your first paragraph<b> in bold text.</b></p>
+	<p><strong>This is an important content</strong>,and this is normal content</p>
+	<p>write your first paragraph <i>in italic text.</i></p>
+	<p><em>This is an important content</em>which displayed in italic font.</p>
+	<p><small>this is a small content.</small>which displayed front</p>
+	<p>hello <sup> this is my first page</sup></p>
+	<p>hello <sub> this is my first page</sub></p>
+	<p>this is a<mark>marked text</mark></p>
+	<p>2**2<mark>=4</mark></p>
+	<p>this is an<ins> insert text</ins></p>
+	<p>this is an <del>deleted text</del></p>
+	<!-- this is an ordered list -->
+	<p style = "color:blue;">ITFCore Team List</p>
+	<ol>
+		<li>michael</li>
+		<li>Bruce</li>
+		<li>sergio</li>
+	</ol>
+	<!-- this is a unordered list -->
+	<p>ITFCore Team List</p>
+	<ul>
+		<li>michael</li>
+		<li>Bruce</li>
+		<li>sergio</li>
+	</ul>
+
+	<!-- this is a definioned list -->
+	<dl>
+		<dt>Michael</dt>
+		    <dd>-team lead</dd>
+		<dt>Robert</dt>
+		    <dd>-academic coord</dd>
+	</dl>
+	<!-- HTML Nested List -->
+	<p>List of Countries with thier capital</p>
+	<ol>
+    	<li>Türkiye
+        	<ul>
+         		<li>Ankara</li>
+        	</ul>
+    	</li>
+    	<li>Greece
+        	<ul>
+            	<li>Athens</li>
+        	</ul>
+    	</li>
+    	<li>Bulgaria
+        	<ul>
+            	<li>Sofia</li>
+        	</ul>
+    	</li>
+    	<li>RRomania
+        	<ul>
+            	<li>Bucharest</li>
+        	</ul>
+    	</li>
+    	<li>Italy
+        	<ul>
+            	<li>Roma</li>
+        	</ul>
+    	</li>
+    	<li>France
+        	<ul>
+            	<li>Paris</li></ul>
+    		</li>
+	</ol>
+	<!-- table without border -->
+	<table>
+		<tr align="left">
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Marks</th>
+		</tr>
+		<tr>
+			<td>Michael</td>
+			<td>Robert</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Adams</td>
+			<td>Charlie</td>
+			<td>80</td>
+		
+		</tr>
+</table>
+
+<hr>
+
+  <table border="5">
+		<tr align="left">
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Marks</th>
+		</tr>
+		<tr>
+			<td>Michael</td>
+			<td>Robert</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Adams</td>
+			<td>Charlie</td>
+			<td>80</td>
+		
+		</tr>
+</table>
+
+<hr>
+
+<!--table with colspan -->
+<table border="3">
+	<tr>
+		<th>Name</th>
+		<th colspan="2">Mobile No</th>
+	</tr>
+	<tr>
+		<td>Sergio</td>
+		<td>12345678</td>
+		<td>87654321</td>
+	</tr>
+</table>
+
+<hr>
+
+<!--table with rowspan -->
+<table border="5">
+	<tr>
+		<th>name</th><td>Sergio</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Mobile No</th>
+		<td>12345678</td>
+	</tr>
+	<tr>
+		<td>87654321</td>
+	</tr>
+
+</table>
+
+<!-- images -->
+<img src="https://images.app.goo.gl/eGiAsQTm8gFw29596" alt="Backraound" width="max" height="max"
+
+<br>
+ 
+ <p><img src="https://clarusway.com/wp-content/uploads/2020/06/clarusway_logo.png" width="%100" height="%100">
+ 	<br>
+
+ <p><img src="clarusway_logo.png" alt="clarusway_logo" height="max" width="max"></p>
+ <br>
+ <p><img src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="old" width="%100" height="%100"></p>
+ <br>
+ <p><img src="yaprak.jpeg" alt="yaprak" width="max" height="max"></p>
+
+ <br>
+ 
+ <a href="https://www.clarusway.com" target="blank"><img src="yaprak.jpeg"></a>
+ <br>
+
+ <a href="mailto:maibalonn@gmail.com">
+ Send Email to Upsilon</a>
+
+ <br>
+
+ <buttom onclick="document.location='https://lms.clarusway.com'">
+ Clarusway LMS</buttom>
+
+ <br>
+
+ <a href="https://lms.clarusway.com" title="go to clarusway lms">Try clarusway lms for further e-learning</a>
+
+
+</body>
+</html>
